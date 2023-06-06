@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicios de JavaScript y AJAX</title>
+  <link rel="stylesheet" href="./css/laboratorio.css">
+  <script src="./javascript/scriptAJAX.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Ejercicios de JavaScript y AJAX</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="register.html">Registro</a></li>
+        <li><a href="about.html">Acerca de mí</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Ejercicios de JavaScript</h2>
+      <ul>
+        <li><a href="ejercicio1.html">Ejercicio 1</a></li>
+        <li><a href="ejercicio2.html">Ejercicio 2</a></li>
+        <li><a href="ejercicio3.html">Ejercicio 3</a></li>
+        <li><a href="ejercicio4.html">Ejercicio 4</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Ejercicios AJAX</h2>
+      <form id="ajax-form">
+        <label for="url-input">URL:</label>
+        <input type="text" id="url-input">
+        <button type="button" onclick="loadContent()">Mostrar Contenidos</button>
+      </form>
+      <div id="status">Estado de la petición: No iniciada</div>
+      <div id="headers">Cabeceras HTTP de la respuesta del servidor:</div>
+      <div id="response-code">Código de estado:</div>
+      <div id="content">Contenidos:</div>
+    </section>
+  </main>
+</body>
+</html>
